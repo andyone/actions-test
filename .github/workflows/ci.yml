@@ -21,9 +21,9 @@ jobs:
       
       - name: Execute shell script
         run: |
-          ls -lah /dev/std*
-          stat /dev/stdout
+          stat /proc/self/fd/0
           stat /proc/self/fd/1
+          stat /proc/self/fd/2
           wget -q -O bibop https://apps.kaos.st/bibop/7.2.1/linux/x86_64/bibop?r=$INVOCATION_ID
           chmod +x bibop
           ./bibop -v
