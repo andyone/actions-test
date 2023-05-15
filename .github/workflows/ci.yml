@@ -17,4 +17,4 @@ jobs:
 
     steps:
       - name: Execute shell script
-        run: echo "123123" | grep TERM
+        run: printenv | sort -h
