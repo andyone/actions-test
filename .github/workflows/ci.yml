@@ -18,6 +18,7 @@ jobs:
     steps:
       - name: Execute shell script
         run: |
-          wget https://apps.kaos.st/bibop/latest/linux/x86_64/bibop
+          printenv | grep TERM
+          wget -O bibop https://apps.kaos.st/bibop/latest/linux/x86_64/bibop &> /dev/null
           chmod +x bibop
           ./bibop --help
