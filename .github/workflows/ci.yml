@@ -20,4 +20,4 @@ jobs:
         run: |
           wget https://apps.kaos.st/bibop/latest/linux/x86_64/bibop
           chmod +x bibop
-          bibop --help
+          ./bibop --help
