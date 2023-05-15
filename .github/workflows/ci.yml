@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Restore permissions
+      - name: Execute shell script
         run: |
           wget https://apps.kaos.st/bibop/latest/linux/x86_64/bibop
           chmod +x bibop
