@@ -1,2 +1,2 @@
-# actions-test
-Simple project for testing/debuging GitHub Actions
+# `actions-test`
+Simple project for testing/debuging GitHub Actions.
