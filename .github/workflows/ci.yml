@@ -25,4 +25,5 @@ jobs:
           stat /proc/self/fd/1
           wget -q -O bibop https://apps.kaos.st/bibop/7.2.1/linux/x86_64/bibop?r=$INVOCATION_ID
           chmod +x bibop
-          ./bibop --help
+          ./bibop -v
+          ./bibop -v | head -100
