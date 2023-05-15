@@ -17,4 +17,4 @@ jobs:
 
     steps:
       - name: Execute shell script
-        run: env | grep TERM
+        run: echo "123123" | grep TERM
