@@ -21,6 +21,6 @@ jobs:
       
       - name: Execute shell script
         run: |
-          wget -q -O bibop https://apps.kaos.st/bibop/7.2.1/linux/x86_64/bibop?r=$INVOCATION_ID
+          wget -q -O bibop https://apps.kaos.st/bibop/latest/linux/x86_64/bibop?r=$INVOCATION_ID
           chmod +x bibop
           ./bibop -vv
